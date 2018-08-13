@@ -1,0 +1,48 @@
+{
+  "name": "fabius",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:Fabius-devaholic/fabius-theme.git",
+  "author": "Hieu Tran <vayu411@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack-dev-server --hot --mode=development --config webpack/webpack.dev.js",
+    "dev": "webpack-dashboard -- webpack-dev-server --hot --mode=development --config webpack/webpack.dev.js",
+    "build": "webpack --progress --hide-modules --mode=production --config webpack/webpack.prod.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0-alpha.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "path": "^0.12.7",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "stylelint": "^9.4.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dashboard": "^2.0.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
